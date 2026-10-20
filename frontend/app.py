@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Quiz - KM1")
+st.title("Quiz")
 
 if "pytanie" not in st.session_state:
     try:
